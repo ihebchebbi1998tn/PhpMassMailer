@@ -28,8 +28,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && $_FILES['file']['error'] == 0) {
         $mail->isSMTP();
         $mail->SMTPAuth = true;
         $mail->Host = 'smtp-mail.outlook.com';
-        $mail->Username = 'iheb.chebbi@lcieducation.net';
-        $mail->Password = 'Azerty123';
+        $mail->Username = 'youremail@outlook.com';
+        $mail->Password = 'yourpassword';
         $mail->Port = 587;
         $mail->SMTPSecure = 'tls';
 
